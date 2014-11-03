@@ -1,0 +1,71 @@
+
+		<div class="blqContainer blqNivel2 blqC1" style="margin-left:5px;min-height:276px; background-color:#182D70;z-index:100000000;">
+							
+			<ul id="menu" style="line-height: 1.3;">
+			<!-- li id="Intem1mnprod" style="background-color:#182D70;"><a  style="font-size:16px;font-weight:bold; color:#fff;" href="index.html">Home</a></li -->
+			<li id="Intem2mnprod" style="background-color:#182D70;" class="BtonblqMn"><a  style="font-size:16px;font-weight:bold; color:#fff; border-bottom: solid 1px #fff;" href="#"></br>Servicios</br></br></a>
+				<ul class="bloqMn">
+									
+					<!-- p style="font-family:Arial Black; font-size:12px; padding-bottom:5px;">Andamios</p -->
+					<li><a id="LanaLnk0" style="font-family:Arial Black; font-size:12px; padding-top:5px; padding-bottom:5px; padding-left:0px; text-shadow:none;" href="serv_andamios.html">Andamios</a></li>
+					<li><a id="LanaLnk1" href="serv_andamios.html">Montaje</a></li>
+					<li><a id="LanaLnk2" href="serv_andamios.html">Alquiler</a></li>
+					
+					<!-- p style="font-family:Arial Black; font-size:12px; padding-top:5px; padding-bottom:5px;">Montaje de productos</p -->
+					<li><a id="LanaLnk3" style="font-family:Arial Black; font-size:12px; padding-top:5px; padding-bottom:5px; padding-left:0px; text-shadow:none;" href="serv_montaje_productos.html">Montaje de productos</a></li>
+					<li><a id="LanaLnk4" href="serv_montaje_productos.html">Aislación térmica</a></li>
+					<li><a id="LanaLnk5" href="serv_montaje_productos.html">Panelería modular</a></li>
+					<!-- p style="font-family:Arial Black; font-size:12px; padding-top:5px; padding-bottom:5px;">Aislación Fireproofing</p>
+					<li><a id="LanaLnk8" href="#">Aislación Fireproofing</a></li -->
+					<li><a id="LanaLnk8" style="font-family:Arial Black; font-size:12px; padding-top:5px; padding-bottom:5px; padding-left:0px; text-shadow:none;" href="serv_aislacion_fireproofing.html">Aislación Fireproofing</a></li>
+					<!-- p style="font-family:Arial Black; font-size:12px; padding-top:5px; padding-bottom:5px;">Cámaras frigoríficas</p -->
+					<li><a id="LanaLnk9" style="font-family:Arial Black; font-size:12px; padding-top:5px; padding-bottom:5px; padding-left:0px; text-shadow:none;" href="serv_camaras_frigorificas.html">Cámaras frigoríficas</a></li>
+					<li><a id="LanaLnk10" href="serv_camaras_frigorificas.html">Cámaras frigoríficas</a></li>
+					<li style="padding-bottom:5px; border-bottom:solid 3px #fff;"><a id="LanaLnk11" href="serv_camaras_frigorificas.html">Puertas frigoríficas</a></li>
+
+					
+				</ul>
+			</li>
+			
+			
+			</ul>		
+		</div>
+		
+		
+
+
+<script type="text/javascript">
+
+/* Script Menu left desplegable*/
+
+$(function(){
+	$('#menu li a').click(function(event){
+		var elem = $(this).next();
+		if(elem.is('ul')){
+			event.preventDefault();
+			$('#menu ul:visible').not(elem).slideUp();
+			elem.slideToggle();
+		}
+	});
+});
+
+/* Script Menu left desplegable*/
+
+</script>
+
+<script type="text/javascript">
+/*var Check01 = document.getElementById("LanaLnk1");*/
+	/*alert=Check01;*/
+	/*Check01.style.color='blue';*/
+/*
+	window.onload = verload();
+	function verload(){
+		var parrafos = document.getElementById('Intem2mnprod');
+		var enlaces = parrafos.getElementsByTagName("a")[1];	
+			enlaces.setAttribute("class", "btnactive");
+	}
+*/
+</script>
+
+		
+		

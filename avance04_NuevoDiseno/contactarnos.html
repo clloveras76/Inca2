@@ -1,0 +1,333 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>INCA - Aislaciones</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link type="text/css" rel="stylesheet"  href="css/bootstrap.min.css">
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<link type="text/css" rel="stylesheet"  href="css/style.css">
+<style>
+.btnC{
+color:#182D70!important; background-color: #CCC !important;
+}
+</style>
+<script>
+
+
+
+			  /**************************************
+			   * VALIDACIONES FORMULARIO.
+			   *************************************/
+
+			//validar form
+			function validarForm(){
+				var r = false ;
+				var f = document.getElementById( 'contactForm' ) ;
+				var nom = validarNombre( f.name.value ) ;
+				var apell = validarMail( f.email.value ) ;
+				/*var mail = validarApellido( f.fmapellido.value ) ;  */
+				var fdescripcion = validaDescripcion( f.message.value ) ;	
+				
+				
+				if( nom && apell && fdescripcion){
+					r = true ;
+				}
+				return r ;
+			}
+
+			//validar nombre
+
+			function validarNombre( v ){
+				document.getElementById( 'errornombre' ).innerHTML = '' ;
+				var p = /^\D{3,20}$/ ;    
+				var r ;
+				if( v.match( p ) ){
+					console.log( 'ok' ) ;
+					r = true ;
+					var formcheckerror;
+					formcheckerror= document.getElementById("chnm");
+					formcheckerror.style.border = "solid 2px";
+					formcheckerror.style.borderColor = "#cccccc";
+				} else {
+					console.log( 'errornombre' ) ;
+					r = false ;
+					document.getElementById( 'errornombre' ).innerHTML += 'Ingrese un nombre válido' ;
+						
+			var formcheckerror;
+			formcheckerror= document.getElementById("chnm");
+			formcheckerror.style.border = "solid 2px";
+			formcheckerror.style.borderColor = "#dd4b39";
+					
+				}
+				return r ;
+			}
+			//validar nombre
+
+
+
+			//validar mail
+
+			function  validarMail( v ){
+				document.getElementById( 'errormail' ).innerHTML = '' ;
+				var p = /^[a-z\._]{3,}@[a-z]+\.[a-z]{2,6}(\.[a-z]{2})?$/ ;
+				var r ;	
+				if( v.match( p ) ){
+					r = true ;
+					var formcheckerror3;
+					formcheckerror3= document.getElementById("chem");
+					formcheckerror3.style.border = "solid 2px";
+					formcheckerror3.style.borderColor = "#cccccc";
+				} else {
+					r = false ;
+
+					document.getElementById( 'errormail' ).innerHTML += 'Ingrese e-mail válido' ;
+					var formcheckerror3;
+					formcheckerror3= document.getElementById("chem");
+					formcheckerror3.style.border = "solid 2px";
+					formcheckerror3.style.borderColor = "#dd4b39";		
+					formcheckerror3.style.fontSize = "8px!important";
+					
+
+				}
+				return r ;
+			}
+
+
+			//validar Input descripción
+
+			function  validaDescripcion( v ){
+				document.getElementById( 'formatdescr' ).innerHTML = '' ;
+
+				var p = /^[a-zA-Z0-9 ]{18,500}$/;  
+				var r ;	
+				if( v.match( p )){	
+					r = true ;
+					var formcheckerror4;
+					formcheckerror4= document.getElementById("chme");
+					formcheckerror4.style.border = "solid 2px";
+					formcheckerror4.style.borderColor = "#cccccc";
+
+			//	}
+				} else {
+				
+				
+					r = false ;
+
+					document.getElementById( 'formatdescr' ).innerHTML += 'Completar comentario -Mínimo 18 caracteres' ;
+					var formcheckerror4;
+					formcheckerror4= document.getElementById("chme");
+					formcheckerror4.style.border = "solid 2px";
+					formcheckerror4.style.borderColor = "#dd4b39";
+
+				}
+				return r ;
+			}
+			//validar Input descripción
+
+
+
+</script>
+
+
+
+</head>
+
+<body>
+
+<div class="servicios">
+
+
+	<div class="mainContainer">
+
+	
+	
+
+	
+<!-- Menu Left Insert-->	
+
+
+<div id="MenuLeftContainerSercicios">
+
+</div>
+
+
+		
+<!-- Menu Left Insert-->			
+		
+<!-- Div Insert -->		
+		<!-- div class="cjaDivInsertProd"></div -->
+<!-- Div Insert -->		
+
+		
+<!-- Contenido Principal -->				
+<div class="contCjaProd1" >
+	<div class="contCjaProd1New" style="width: 956px;float: right;height: 590px;">
+	
+		<!-- Menu superior -->
+	<!-- Menu TOP Insert-->	
+
+	<div id="MenuTopContainer">
+	</div>		
+	
+	<!-- Menu TOP Insert-->	
+	<!-- Menu superior -->	
+<div class="sec_contactarnos">
+	
+<div class="contactos">	
+<div class="contCjaProd2 BlockContainerFade" style="width: 100%; height:100%; ">
+		<div class="cjaCon1"  style="float:left; margin-left:5px; height:373px; width: 369px;">
+			<h3>Contáctenos</h3>
+			
+			<p class="parrfCont1">Para contactarse con INCA puede enviarnos un E-mail a nuestra casilla de contacto inca@incaaislaciones.com.ar o completar el formulario y le responderemos a la brevedad.</p>	
+			
+			
+			
+		</div>
+		
+		<div class="cjaCon2" style="height:100%; float:left; margin-left:5px; margin-right:5px;">
+				
+					 <form id="contactForm" class="form-horizontal" style="background-color:#f6f6f6; padding:10px; box-shadow:1px 1px #ccc;"  action="contact.php" name="contactForm" onsubmit="return validarForm()" method="post">
+					 <fieldset>
+					  		<legend>Mensajes</legend>
+					 <div class="form-group">
+						<label class="col-md-4 control-label">Nombre</label>
+						 <div class="col-md-4">
+								<input name="name" id="chnm" type="text"   placeholder="Nombre" class="form-control input-md width320"  />
+								<span class="cjerror" id="errornombre"></span>
+						</div>
+					  </div>
+					   <div class="form-group">
+						<label class="col-md-4 control-label">e-mail</label>
+						 <div class="col-md-4">
+								<input name="email" id="chem" type="text"  placeholder="E-Mail"  class="form-control input-md width320" />
+								<span class="cjerror" id="errormail"></span>
+						</div>
+					  </div>
+					  <div class="form-group">
+						<label class="col-md-4 control-label">Consulta</label>
+						 <div class="col-md-4">
+						<textarea  id="chme" name="message" placeholder="Ingrese su mensaje"  class="width320"></textarea>
+						<span class="cjerror" id="formatdescr"></span>
+						</div>
+					  </div>
+					  
+					 
+					  
+					  			<div class="form-group">
+								  <label class="col-md-4 control-label" for="btmMensaje"></label>
+								  <div class="col-md-4">
+									 <input id="sendMessage" type="submit" class="btn btn-inverse" style="border: solid 1px #ccc;" value="Enviar" />
+								  </div>
+								</div>
+					  
+					  
+					  
+					  
+					  
+					  
+					  
+					  </fieldset>
+					</form>
+				
+					<!-- form id="contactForm" class="form-horizontal" style="background-color:#f6f6f6; padding:10px; box-shadow:1px 1px #ccc;"  action="contact.php" name="contactForm" onsubmit="return validarForm()" method="post">
+								<fieldset>
+
+							
+								<legend>Mensajes</legend>
+
+						
+								<div class="form-group">
+								  <label class="col-md-4 control-label" for="name">Nombre</label>  
+								  <div class="col-md-4">
+								  <input id="nombreCliente" name="name" type="text" placeholder="Nombre" class="form-control input-md" required="">
+									
+								  </div>
+								</div>
+
+								
+								<div class="form-group">
+								  <label class="col-md-4 control-label" for="email">E-Mail</label>  
+								  <div class="col-md-4">
+								  <input id="mailCliente" name="email" type="email" placeholder="E-Mail" class="form-control input-md" required="">
+									
+								  </div>
+								</div>
+
+						
+								<div class="form-group">
+								  <label class="col-md-4 control-label" for="message">Mensaje</label>
+								  <div class="col-md-4">                     
+									<textarea class="form-control" id="mensajeCliente" name="message">Ingrese su mensaje</textarea>
+								  </div>
+								</div>
+
+								
+								<div class="form-group">
+								  <label class="col-md-4 control-label" for="btmMensaje"></label>
+								  <div class="col-md-4">
+									<button id="btmMensaje" name="btmMensaje" class="btn btn-inverse" style="border: solid 1px #ccc;" type="submit" value="Enviar">Enviar</button>
+								  </div>
+								</div>
+
+								</fieldset>
+								</form -->
+				
+				
+			</div>
+		
+		
+</div>	
+<!-- Contenido Secundario 1 -->			
+</div>			
+		<div class="clearFloat"></div>
+	
+	
+	
+</div>		
+
+<!-- Contenido Principal -->						
+		
+	<div>
+</div>
+		
+		<div class="clearFloat"></div>
+		
+
+		
+		<!-- Footer Insert-->	
+<div id="FooterContainer">
+
+</div>
+
+		<!-- Footer Insert-->			
+		
+
+	</div>
+
+</div>
+
+
+
+	</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

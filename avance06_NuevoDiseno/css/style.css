@@ -1,0 +1,1272 @@
+
+
+ 	
+
+/* #Reset & Basics
+================================================== */
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		/*color:000;*/
+
+		vertical-align: baseline; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+
+	ol, ul {list-style: none; }
+	blockquote, q {
+		quotes: none; }
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none; }
+	table {
+		border-collapse: collapse;
+		border-spacing: 0; }
+/*ul li{display:inline; padding-left:30px; font-size:20px;}*/
+/* #Reset & Basics 
+================================================== */
+	
+
+/* ===================================Estilos Generales ==============================*/
+.clearFloat{
+clear: both;
+}
+body{
+font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+background-color:#eee;
+}
+
+.strongclass{
+font-weight:bold;
+
+}
+
+
+body{
+	    background: url('../image/bgImageSite.png') repeat scroll 0% 0% #FFF;
+}
+/*
+body {
+scrollbar-face-color: #006699;
+scrollbar-shadow-color: #DEEBF5;
+scrollbar-highlight-color: #DEEBF5;
+scrollbar-3dlight-color: #5F8ABD;
+scrollbar-darkshadow-color: #5F8ABD;
+scrollbar-track-color: #F5F5F5;
+scrollbar-arrow-color: #FFFFFF;
+}
+*/
+
+.Home{
+margin-top:1%;
+
+}
+.productos{
+margin-top:1%;
+
+}
+.folletos{
+margin-top:1%;
+
+}
+.quienessomos{
+margin-top:1%;
+
+}
+
+.width234{
+width: 234px!important;
+}
+
+.blq01HomeNew li a{
+color:#fff;
+}
+
+/* ===================================Estilos Generales ==============================*/
+	
+	
+/* ===================================Estilos Home ==============================*/
+.mainContainer{
+width: 1200px; 
+margin: auto; 
+background: #fff; 
+min-height: 596px;
+padding-top:5px;
+padding-bottom:5px;
+ z-index:-10!important;
+}
+
+/* ====== Estilos Menú ====== */
+.blqContainer{
+width: 234px; 
+height:117px; 
+background-color:#fff;
+float:left;
+margin-right:5px;
+}
+.blqContainerNew{
+height:79px!important; 
+padding-bottom:2px!important; 
+}
+
+
+.blqContainer{
+font-size:9px;
+color:#fff;
+
+}
+
+.blqContainer .ContSup{
+height: 38px;
+margin-bottom:2px;
+background-color:#918f83;
+font-size:9px;
+}
+
+.blqContainer .ContInf{
+height:36px;
+background-color:#182d70;
+
+}
+
+.menuTop .ContSup2 p a{
+font-size: 16px;
+font-weight: normal!important;
+font-family: "Arial", Gadget, sans-serif;
+
+}
+
+
+
+.ItemMnu a{
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 15px;
+text-align:center;
+color:#fff;
+text-decoration:none;
+display:block;
+margin: auto;
+height:36px;
+width:100%;
+padding-top: 7px;
+/*-webkit-margin-top:3px;*/
+}
+.ItemMnu a:hover{
+color:#182d70;
+background-color:#ccc;
+height:36px;
+-webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.ContSup p{
+margin-left:4px;
+}
+.ContSup2 p{
+margin-left:0px!important;
+}
+.ItemMnu2 a{
+height:43px!important; 
+width:100%;
+/*padding-top:31px;*/
+}
+.linkNivel2:hover{
+color:#ccc!important;
+opacity:1!important;
+}
+.Home .blqContainer .ContSup3{
+background-color:transparent!important;
+}
+
+.Home .blqContainer .ContInf3{
+background-color:transparent!important;
+}
+.Home .ItemMnu a{
+height: 36px;
+}
+
+
+/* ====== Estilos Menú ====== */
+
+.Home .blqNivel2{
+margin-top:5px;
+
+}
+.productos .blqC1:hover{
+opacity:1!important;
+filter:alpha(opacity=100)!important; /* For IE8 and earlier */
+
+}
+/*
+.blqNivel2:hover{
+opacity:0.8;
+filter:alpha(opacity=80); 
+} 
+*/
+.Home .blqC1{
+background-image: url('../image/lanamineral.jpg');
+}
+.Home .blqC2{
+background-image: url('../image/media_cana.jpg');
+}
+.Home .blqC3{
+background-image: url('../image/rollo.jpg');
+}
+.Home .blqC4{
+background-image: url('../image/rollo-a.jpg');
+}
+.Home .blqC5{
+background-image: url('../image/rolloa.jpg');
+}
+.Home .blqC6{
+background-image: url('../image/poliestirero.jpg');
+}
+.Home .blqC7{
+background-image: url('../image/plancha.jpg');
+}
+.Home .blqC8{
+background-image: url('../image/bloke.jpg');
+}
+.Home .blqC9{
+background-image: url('../image/panel.jpg');
+}
+.Home .blqC10{
+background-image: url('../image/bloque.jpg');
+}
+.Home .blqC11{
+background-image: url('../image/serv.jpg');
+}
+
+.Home .blqC12{
+background-image: url('../image/montajes2.jpg');
+}
+.Home .blqC13{
+background-image: url('../image/montaje1.jpg');
+}
+.Home .blqC14{
+background-image: url('../image/montajes3.jpg');
+}
+.Home .blqC15{
+background-image: url('../image/montajes.jpg');
+}
+.Home .linkNivel2{
+padding-left:10px;
+padding-right:10px;
+padding-top:56px;
+display:block;
+height: 117px !important;
+width:234px;
+/*background-color:red;*/
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 12px;
+text-align:center;
+color:#fff;
+text-decoration:none;
+margin: auto;
+}
+
+/* ===================================Estilos Home ==============================*/
+
+
+/* ===================================Estilos Menú Lateral ==============================*/
+#menu{
+/*	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;*/
+	-webkit-box-shadow:1px 1px 3px #888;
+	-moz-box-shadow:1px 1px 3px #888;
+	/*overflow:hidden!important;*/
+}
+#MenuLeftContainer .blqC1 {
+	/*overflow:hidden!important;*/
+	
+	
+}
+
+#menu li{border-bottom:1px solid #FFF;}
+#menu ul li, #menu li:last-child{border:none;}	
+#menu a{
+	display:block;
+	/*color:#006;*/
+	color:#fff!important;
+	text-decoration:none;
+	font-family:'Helvetica', Arial, sans-serif;
+	font-size:14px;
+	padding:3px 0px 0px 5px;
+		
+	/*text-shadow:1px 1px 1px #ccc;*/
+}
+#menu a:hover{
+	color:#182D70;
+	background-color:#918F83;
+	-webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+#menu .btnactive{
+	color:#182D70;
+	-webkit-transition: color 0.2s linear;
+	background-color:#ccc;
+}
+
+.bloqMn p{
+	color:#006;
+}
+
+.color006{
+color: #006!important;
+}
+
+#menu ul a{
+/*background-color:#6594D1;*/
+background-color:#516484;
+}
+#menu ul a:hover{
+	background-color:#ccc;
+	/*color:#2961A9;*/
+	color:#918F83;
+	/*border-top: solid 1px #000;
+	border-bottom: solid 1px #000;*/
+	text-shadow:none;
+	-webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+	
+}
+#menu ul{
+	display:block;
+	background-color:#2961A9;
+	margin:0;
+	padding:0;
+	width:234px;
+	list-style:none;
+	overflow:hidden!important;
+}
+#menu ul{
+/*background-color:#6594D1;*/
+background-color:#ccc;
+
+}
+#menu li ul {display:none;}
+
+
+/* ===================================Estilos Menú Lateral ==============================*/
+
+
+/* ===================================Estilos Productos ==============================*/
+
+
+.productos .blqNivel2{
+margin-top:5px;
+}
+.productos .blqNivel2:hover{
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.productos .blqC1{
+/*background-image: url('../image/lanamineral.jpg');*/
+}
+.productos .blqC2{
+background-image: url('../image/media_cana.jpg');
+}
+.productos .blqC3{
+background-image: url('../image/rollo.jpg');
+}
+.productos .blqC4{
+background-image: url('../image/rollo-a.jpg');
+}
+.productos .blqC5{
+background-image: url('../image/rolloa.jpg');
+}
+.productos .blqC6{
+background-image: url('../image/lanamineral.jpg');
+}
+.productos .blqC7{
+background-image: url('../image/panel1.jpg');
+}
+.productos .blqC8{
+background-image: url('../image/rolloa.jpg');
+}
+.productos .blqC9{
+background-image: url('../image/media_cana.jpg');
+}
+.productos .blqC10{
+background-image: url('../image/rollo.jpg');
+}
+.productos .blqC11{
+background-image: url('../image/lana.jpg');
+}
+
+.productos .blqC12{
+background-image: url('../image/lana.jpg');
+}
+.productos .blqC13{
+background-image: url('../image/plancha.jpg');
+}
+.productos .blqC14{
+background-image: url('../image/bloke.jpg');
+}
+.productos .blqC15{
+background-image: url('../image/media.jpg');
+}
+.productos .blqC16{
+background-image: url('../image/panel.jpg');
+}
+.productos .blqC17{
+background-image: url('../image/bloque.jpg');
+}
+.productos .linkNivel2{
+padding-left:10px;
+padding-right:10px;
+padding-top:56px;
+display:block;
+height: 117px !important;
+width:234px;
+/*background-color:red;*/
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 12px;
+text-align:center;
+color:#fff;
+text-decoration:none;
+margin: auto;
+}
+
+.contCjaProd1{
+
+
+}
+
+.contCjaProd2{
+ height:373px; float:left; margin-top:5px;
+
+}
+
+.contCjaProd2 .cjaCon1{
+width: 234px;
+height: 373px;
+float:left;
+}
+.contCjaProd2 h3{
+color: #006;
+font-family: Arial Black,Gadget,sans-serif;
+font-size: 14px;
+}
+
+.contCjaProd2 .parrfCont1{
+color: #006;
+font-family: Arial,Helvetica,sans-serif;
+font-size:12px;
+}
+
+.simpleList{
+
+color: #006;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 12px;
+list-style-type:disc;
+margin-left: 15px;
+margin-top:10px;
+}
+
+.listsinbullet{
+ list-style: none!important;
+}
+
+
+.contTxtClientes .simpleList h3 {
+font-size: 13px;
+font-weight:bold;
+font-family: Arial,Helvetica,sans-serif;
+
+}
+
+.simpleList li{
+margin-bottom:10px;
+}
+
+.contImgRightProd{
+width: 473px;height:373px;float:left;
+}
+
+.imgRightProduct{
+
+width: 473px;
+height: 373px;
+/*width:100%;*/
+
+}
+
+
+/* ===================================Estilos Productos ==============================*/
+
+
+/* ===================================Estilos Quienes somos ==============================*/
+.qsomos1{
+display:block;
+width:234px;
+height:373px;
+background-image: url('../image/quienes_somos1.jpg');
+background-repeat:repeat-y;
+}
+.qsomos1:hover{
+background-image: url('../image/quienes_somos1_hover.jpg');
+opacity: 0.8; 
+filter:alpha(opacity=90); /* For IE8 and earlier */
+-webkit-transition-duration:1s;
+-moz-transition-duration: 1s; 
+ -o-transition-duration: 1s;
+transition-duration: 1s;
+}
+.qsomos2{
+display:block;
+width:234px;
+height:373px;
+background-image: url('../image/quienes_somos2.jpg');
+}
+.qsomos2:hover{
+background-image: url('../image/quienes_somos2_hover.jpg');
+opacity: 0.8; 
+filter:alpha(opacity=90); /* For IE8 and earlier */
+-webkit-transition-duration:1s;
+-moz-transition-duration: 1s; 
+ -o-transition-duration: 1s;
+transition-duration: 1s;
+}
+.qsomos3{
+display:block;
+width:234px;
+height:373px;
+background-image: url('../image/quienes_somos3.jpg');
+}
+.qsomos3:hover{
+background-image: url('../image/quienes_somos3_hover.jpg');
+filter:alpha(opacity=90); /* For IE8 and earlier */
+opacity: 0.8; 
+-webkit-transition-duration:1s;
+-moz-transition-duration: 1s; 
+ -o-transition-duration: 1s;
+transition-duration: 1s;
+}
+
+.cajaContStyle{
+width:234px!important;height:100%; float:left;
+}
+.margin-left5{
+margin-left:5px;
+}
+.margin-left11{
+margin-left:11px!important;
+}
+
+.margin-left15{
+margin-left:15px!important;
+}
+.margin-right5{
+margin-right:5px;
+}
+.sinMargin{
+margin:0px!important;
+}
+.sinMarginRight{
+margin-right:0px!important;
+}
+.sinMarginLeft{
+margin-left:0px!important;
+}
+.sinMarginTop{
+margin-top:0px!important;
+}
+
+
+
+.sinPadding{
+padding:0px!important;
+}
+
+.sinPaddingTop{
+padding-top:0px!important;
+}
+.marginBottom5{
+margin-bottom:5px;
+}
+.marginBottom10{
+margin-bottom:10px;
+}
+.marginBottom3{
+margin-bottom:3px!important	;
+}
+.margintop3{
+margin-top:3px!important;
+}
+.margintop4{
+margin-top:4px!important;
+}
+.margintop10{
+margin-top:10px!important;
+}
+.margintop35{
+margin-top:35px!important;
+}
+
+.margintop5{
+margin-top:5px!important;
+}
+.paddingBottom5{
+padding-bottom:5px;
+}
+.paddingBottom2{
+padding-bottom:2px;
+}
+.width1200{
+width:1200px;
+}
+.height100porcent{
+height:100%;
+}
+.width186{
+width:186px!important;
+}
+.width234{
+width:234px!important;
+}
+.width480{
+width:480px!important;
+}
+.width320{
+width:320px!important;
+}
+.height117{
+height:117px!important;
+}
+
+
+/* ===================================Estilos Quienes somos ==============================*/
+
+
+
+/* ===================================Estilos Footer ==============================*/
+
+
+.Mainfooter{
+width: 946px;
+margin-top:5px;
+margin-left:5px;
+margin-right:5px;
+/*background: #918F83;*/
+/*background-color: #182D70;*/
+background-color:#fff;
+padding-top:10px;
+padding-bottom:10px;
+/*color: #bbb;*/
+color: #918f83;
+
+/*
+width: 953px;
+margin-left: 242px;
+*/
+}
+
+.Mainfooter p{
+text-align:center;
+margin-bottom:2px;
+font-family: "Arial", Gadget, sans-serif;
+font-size: 12px;
+}
+.Mainfooter p span{
+/*color:#fff;*/
+color: #918f83;
+}
+
+
+
+/* ===================================Estilos Servicios ==============================*/
+
+
+/* --- */
+
+.servicios{
+margin-top:1%;
+
+}
+
+.servicios .blqC1:hover{
+opacity:1!important;
+filter:alpha(opacity=100)!important; /* For IE8 and earlier */
+
+}
+
+
+.servicios .blqNivel2{
+margin-top:5px;
+}
+.servicios .blqNivel2:hover{
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.servicios .blqC1{
+/*background-image: url('../image/lanamineral.jpg');*/
+}
+.servicios .blqC2{
+background-image: url('../image/andamios.jpg');
+width: 234px; 
+height:373px;	
+}
+.servicios .blqC3{
+background-image: url('../image/servicios1.jpg');
+width: 234px; 
+height:373px;	
+}
+.servicios .blqC4{
+background-image: url('../image/spraylanamineral.jpg');
+width: 234px; 
+height:373px;	
+}
+.servicios .blqC5{
+background-image: url('../image/camarafrig.jpg');
+width: 234px; 
+height:373px;		
+}
+
+.servicios .linkNivel2{
+padding-left:10px;
+padding-right:10px;
+padding-top:56px;
+display:block;
+height:36px!important;
+width: 233px;
+/*background-color:red;*/
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 12px;
+text-align:center;
+color:#fff;
+text-decoration:none;
+margin: auto;
+}
+
+/* ===================================Estilos Clientes ==============================*/
+
+
+/* --- */
+
+.clientes{
+margin-top:1%;
+
+}
+
+.clientes .blqC1:hover{
+opacity:1!important;
+filter:alpha(opacity=100)!important; /* For IE8 and earlier */
+
+}
+
+
+.clientes .blqNivel2{
+margin-top:5px;
+}
+.clientes .blqNivel2:hover{
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.clientes .blqC1{
+/*background-image: url('../image/lanamineral.jpg');*/
+}
+.clientes .blqC2{
+/*background-color:silver;*/
+width: 473px; 
+min-height:373px!important;	
+margin-bottom:0px!important;
+padding-bottom:5px!important;
+}
+.clientes .blqC3{
+/*background-color:silver;*/
+width: 473px; 
+min-height:373px!important;	
+margin-bottom:0px!important;
+padding-bottom:5px!important;
+}
+
+.clientes .linkNivel2{
+padding-left:10px;
+padding-right:10px;
+padding-top:56px;
+display:block;
+height:36px!important;
+width:166px;
+/*background-color:red;*/
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 12px;
+text-align:center;
+color:#fff;
+text-decoration:none;
+margin: auto;
+}
+
+.contTxtClientes{
+margin-top:10px;
+margin-left:10px;
+color: #006;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 12px;
+
+}
+
+.clientes .contCjaProd1 .blqContainer {
+height:100%; margin-bottom:10px;
+}
+
+
+/* ===================================Estilos Folletos ==============================*/
+.ListFolletos{
+color: #006;
+text-decoration:none;
+}
+.ListFolletos:hover{
+color: #918F83;
+text-decoration:underline;
+}
+
+
+
+/* ===================================Estilos Home Devices ==============================*/
+
+
+.home_devices p{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ===================================Estilos Contactos ==============================*/
+
+.contactos{
+margin-top:1%;
+}
+
+.contactos .cjaCon1{
+width: 617px;
+}
+.contactos .cjaCon2{
+width: 567px;
+	
+}
+
+.contactos .ItemMnu a{
+height:36px;;
+}
+
+#mensajeCliente{
+width:320px;
+}
+#mailCliente{
+width:320px;
+}
+#nombreCliente{
+width:320px;
+}
+
+/* =================================== Media Query Responsive ==============================*/
+.home_devices{display:none\9; /* ie8 hack */*display:none; /* ie7 hack */}
+
+@media screen and (min-width:761px){ 
+.home_devices{display:none;}
+.Home{display:block;}
+}
+
+@media screen and (max-width:760px){ 
+.home_devices{display:block;}
+.Home{display:none;}
+}
+
+
+
+
+
+
+/* =================================== Estilos NEW DESIGN ==============================*/
+/* =================================== Estilos NEW DESIGN ==============================*/
+/* =================================== Estilos NEW DESIGN ==============================*/
+
+.transparent_class {
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=50);
+
+  /* Netscape */
+  -moz-opacity: 0.5;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.5;
+
+  /* Good browsers */
+  opacity: 0.5;
+}
+
+
+
+/* =================================== HOME NEW ==============================*/
+/*
+.bgColorBlack{
+background-color: rgba(0,0,0,0.6);
+}
+*/
+.bgColorBrown{
+background-color: rgba(87,78,49,0.8);
+}
+.bgColorBlueTop{
+background-color: rgba(24,45,112,0.7);
+}
+.bgColorBlackTop{
+background-color: rgba(0,0,0,0.5);
+}
+
+.height169{
+height:169px!important;
+}
+.height167{
+height:167px!important;
+}
+
+.height33{
+height:33px!important;
+}
+
+.height35{
+height:35px!important;
+}
+.height390{
+height:390px!important;
+}
+
+.blq01HomeNew{
+/*background-image: url('../image/bg_HomeBlq01_lanaMineral.jpg');*/
+width:234px;height:207px;float:left; margin-right:5px;margin-top:5px;
+}
+
+.blq02HomeNew{
+/*background-image: url('../image/bg_HomeBlq02_Poliestireno.jpg')!important;*/
+}
+
+.blq03HomeNew{
+/*background-image: url('../image/bg_HomeBlq03_Panel.jpg')!important;*/
+}
+
+.blq04HomeNew{
+/*background-image: url('../image/bg_HomeBlq03_Camara.jpg')!important;*/
+}
+
+.blq05HomeNew{
+/*background-image: url('../image/bg_HomeBlq04_Fireproffing.jpg')!important;*/
+}
+
+.blq06HomeNew{
+/*background-image: url('../image/bg_HomeBlq05_Montajes.jpg')!important;*/
+}
+
+.blq07HomeNew{
+/*background-image: url('../image/bg_HomeBlq06_Andamios.jpg')!important;*/
+}
+
+
+
+.blq01HomeNew .tituloh4{
+color:#fff!important;
+font-family:Arial;
+font-size:16px;
+padding-left:10px;
+padding-top:8px;
+}
+.blq01HomeNew ul li{
+color:#fff!important;
+font-family:Arial;
+font-size:15px;
+line-height: 1.2;
+list-style: disc;
+}
+.blq01HomeNew ul{
+padding-top: 5px;
+margin-left:24px;
+}
+
+
+/* Estilos mantener menu desplegado */
+
+.bloqMn{
+display:block!important;
+}
+
+
+
+/* Secciones principales */
+.sec_aislantes_termicos .blq01HomeNew {
+    background-image: none!important;
+}	
+
+.sec_aislantes_termicos {
+  background-image: url('../image/prod_aislantes_termicos.jpg');
+	width: 951px;
+	margin-top:3px;
+}	
+.sec_montajes {
+  background-image: url('../image/bg_instalaciones.jpg');
+	width: 951px;
+	margin-top:3px;
+}	
+
+.sec_montajes .blq01HomeNew {
+    background-image: none!important;
+}	
+
+.sec_andamios {
+  background-image: url('../image/andamios_New.jpg');
+	width: 951px;
+	margin-top:3px;
+}	
+.sec_andamios .blq01HomeNew {
+    background-image: none!important;
+}	
+.sec_contactarnos {
+
+	width: 951px;
+	margin-top:3px;
+	height: 419px;
+}	
+.sec_contactarnos .blq01HomeNew {
+    background-image: none!important;
+}	
+
+
+
+/* Productos aislantes términos  */
+
+.sec_prod_aislantes_termicos {
+	background-color:#fff!important;
+	width: 951px;
+	margin-top:3px;
+	color:#000!important;
+}	
+.sec_prod_aislantes_termicos .blq01HomeNew {
+    background-image: none!important;
+	color:#000!important;
+	font-size:12px;
+}	
+
+/* Tabla Otros aislantes / Silicato de calcio  */
+#silicatoCalcio{
+	width:229px;
+	background-color:#898989;
+	text-align: center;
+	vertical-align:middle;
+	font-size:10px;
+	}
+#silicatoCalcio tr{
+	text-align: center;
+	vertical-align:middle;
+	}		
+#silicatoCalcio td{
+	border: solid 1px #fff;
+	padding:4px 4px 4px 4px;
+	text-align: center;
+	vertical-align:middle;
+	}	
+#silicatoCalcio th{
+	border: solid 1px #fff;
+	text-align: center;
+	vertical-align:middle;
+	}						
+#silicatoCalcio .firstColumnTable{
+	width:50%!important;
+	}
+	
+						
+
+						
+/* Sec Poliestireno  */						
+.polistireno {
+    margin-top: 1%;
+}						
+.sec_polistireno {
+  background-image: url('../image/bg_sec_poliestireno.jpg');
+	width: 951px;
+	margin-top:3px;
+}	
+.sec_polistireno .blq01HomeNew {
+    background-image: none!important;
+}	
+
+.sec_polistireno .blq01HomeNew {
+
+    width: 229px;
+    height: 207px;
+    float: left;
+    margin-top: 0px;
+}
+.height100percent{
+height:100%!important;
+}
+.height377{
+height:377px!important;
+}
+
+.width712{
+width: 712px!important;
+}
+.height417{
+height:417px!important;
+}			
+
+		
+/* Sec Lana Mineral  */						
+.lanamineral {
+    margin-top: 1%;
+}						
+.sec_lanamineral {
+  background-image: url('../image/bg_sec_lanamineral.jpg');
+	width: 951px;
+	margin-top:3px;
+}	
+.sec_lanamineral .blq01HomeNew {
+    background-image: none!important;
+}	
+
+.sec_lanamineral .blq01HomeNew {
+
+    width: 229px;
+    height: 207px;
+    float: left;
+    margin-top: 0px;
+}
+.height100percent{
+height:100%!important;
+}
+.height377{
+height:377px!important;
+}
+
+.width712{
+width: 712px!important;
+}
+.height417{
+height:417px!important;
+}
+
+
+/*Efecto bck home*/
+
+#imgPrincipalCont{
+ width:951px;height:419px; 
+   background-image: url('../image/andamios_New.jpg');
+  /*background-image: url('../image/serv_montajes.jpg');
+  background-image: url('../image/andamios_New.jpg');
+  background-image: url('../image/prod_aislantes_termicos.jpg');*/
+}
+#imgPrincipalCont2{ width:951px;height:419px;    background-image: url('../image/bg_instalaciones.jpg');  /*background-image: url('../image/serv_montajes.jpg');  background-image: url('../image/andamios_New.jpg');  background-image: url('../image/prod_aislantes_termicos.jpg');*/}#imgPrincipalCont3{ width:951px;height:419px;    background-image: url('../image/bg_media_cana.jpg');  /*background-image: url('../image/serv_montajes.jpg');  background-image: url('../image/andamios_New.jpg');  background-image: url('../image/prod_aislantes_termicos.jpg');*/}
+#imgPrincipalCont4{ width:951px;height:419px;    background-image: url('../image/bg_sec_poliestireno.jpg');  /*background-image: url('../image/serv_montajes.jpg');  background-image: url('../image/andamios_New.jpg');  background-image: url('../image/prod_aislantes_termicos.jpg');*/}#imgPrincipalCont5{ width:951px;height:419px;    background-image: url('../image/serv_montajes.jpg');  /*background-image: url('../image/serv_montajes.jpg');  background-image: url('../image/andamios_New.jpg');  background-image: url('../image/prod_aislantes_termicos.jpg');*/}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================================Estilos Quienes somos new ==============================*/
+
+
+/* --- */
+
+.qSomosnew{
+margin-top:1%;
+
+}
+
+.qSomosnew .blqC1:hover{
+opacity:1!important;
+filter:alpha(opacity=100)!important; /* For IE8 and earlier */
+
+}
+
+
+.qSomosnew .blqNivel2{
+margin-top:5px;
+}
+.qSomosnew .blqNivel2:hover{
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.qSomosnew .blqC1{
+/*background-image: url('../image/lanamineral.jpg');*/
+}
+.qSomosnew .blqC2{
+/*background-color:silver;*/
+width: 473px; 
+min-height:373px!important;	
+margin-bottom:0px!important;
+padding-bottom:5px!important;
+}
+.qSomosnew .blqC3{
+/*background-color:silver;*/
+width: 473px; 
+min-height:373px!important;	
+margin-bottom:0px!important;
+padding-bottom:5px!important;
+}
+
+.qSomosnew .linkNivel2{
+padding-left:10px;
+padding-right:10px;
+padding-top:56px;
+display:block;
+height:36px!important;
+width:166px;
+/*background-color:red;*/
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 12px;
+text-align:center;
+color:#fff;
+text-decoration:none;
+margin: auto;
+}
+
+
+.qSomosnew .contCjaProd1 .blqContainer {
+height:100%;
+}
+
+
+
+.qSomosnew .blqContainer{
+    color: #006;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+
+
+}

@@ -1,0 +1,346 @@
+@charset "utf-8";
+/* CSS Document */
+.menu
+{color: #FFF;
+font-family:"Arial Black", Gadget, sans-serif;
+font-size: 15px;}
+.selencion
+{color: #009;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;}
+.index
+{color: #009;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;}
+.info
+{color:#FFF;
+font-family:Arial, Helvetica, sans-serif;
+font-size:9px;}
+.productos
+{color: #FFF;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;}
+.productostitulos
+{color: #FFF;
+font-family: "Arial Black", Gadget, sans-serif;
+font-size:16px;}
+.productosubtitulos
+{color: #FFF;
+font-family: "Arial Black", Gadget, sans-serif;
+font-size:12px;}
+.titulotexnico
+{color: #006;
+font-family: "Arial Black", Gadget, sans-serif;
+font-size:12px;}
+.textotecnico
+{color: #006;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;}
+.tituloprincipal
+{color: #006;
+font-family: "Arial Black", Gadget, sans-serif;
+font-size:16px;}
+#index 
+{width:220px;
+height:auto;
+margin: auto;}
+#infoindex 
+{width:220px;
+height: auto;
+margin-top:4px;
+background-color:#CCC;
+float:left;}
+#fabricaindex 
+{width:220px;
+height: auto;
+margin-top:4px;
+background-color:#999;
+float:left;}
+#producto
+{width:220px;
+height: auto;
+margin-top:4px;
+background-color: #006;
+float:left;
+text-align:center;}
+#servicio
+{width:220px;
+height: auto;
+margin-top:4px;
+background-color: #006;
+float:left;
+text-align:center;}
+#marco
+{width:950px;
+height:700px;
+margin:auto}
+
+#marca 
+{width:180px;
+height:90px;
+margin:2px;
+background-image: url(../image/marca.jpg);
+float:left;}
+
+
+#oficina
+{width: 180px;
+height: 60px;
+background-color:#A39D92;
+float:left;
+text-align:left;}
+#fabrica
+{width: 180px;
+height: 60px;
+background-color:#A39D92;
+text-align:left;
+float:left;}
+#cliente
+{width: 180px;
+height: 60px;
+background-color:#A39D92;
+float:left;}
+#folleto
+{width: 180px;
+height: 60px;
+background-color:#A39D92;
+float:left;}
+#somos
+{width:180px;
+height:28px;
+background-image:url(../image/color.jpg);
+margin-top:2px;
+text-align:center;
+float:left;}
+#productos
+{width:180px;
+height:28px;
+background-image:url(../image/color.jpg);
+margin-top:2px;
+text-align:center;
+float:left;}
+
+#a
+{width:180px;
+height:90px;
+margin:2px;
+float: left;
+background-image:url(../image/color.png);
+text-align:center;}
+
+#lanamineral
+{width:180px;
+height:90px;
+margin:2px;
+float: left;
+background-image: url(../image/lanamineral.jpg);
+text-align:center;}
+
+
+#poliestirenoexpandido
+{width:180px;
+height:90px;
+margin:2px;
+float: left;
+background-image: url(../image/poliestirero.jpg);
+text-align:center;}
+#titulomenu
+{width:180px;
+height:28px;
+background-image:url(../image/color.jpg);
+text-align: left;
+float:left;}
+
+#codigofiscal
+{width:180px;
+height: auto;
+margin:2px;
+float: left;
+text-align: left ;}
+#montaje
+{width:180px;
+height:90px;
+margin:2px;
+float: left;
+background-image: url(../image/serv.jpg);
+text-align:center;}
+#camarafrigorifica
+{width:180px;
+height: auto;
+float: left;
+margin-top:2px;
+background-color: #393A71;}
+
+#camarafrigorificaa
+{width:180px;
+height: auto;
+float: left;
+margin-top:2px;
+background-color: #40447B;}
+
+#camarafrigorificab
+{width:180px;
+height: auto;
+float: left;
+margin-top:2px;
+background-color: #272B43;}
+#camarafrigorificac
+{width:180px;
+height: auto;
+float: left;
+margin-top:2px;
+background-color: #2E3450;}
+#camarafrigorificad
+{width:180px;
+height: auto;
+float: left;
+margin-top:2px;
+background-color: #2D2E5E;}
+#Obrasprinc
+{width:180px;
+height: auto;
+float: left;
+margin-top:2px;
+background-color: #666;}
+#montajeproductos
+{width:180px;
+height: auto;
+margin-top:2px;
+float: left;
+background-color: #808080;}
+#andamios
+{width:180px;
+height: auto;
+margin-top:2px;
+float: left;
+background-color: #666;}
+#b
+{width:180px;
+height:90px;
+margin:2px;
+float: left;
+background-image:url(../image/color.png);
+text-align:center;}
+
+#c
+{width:180px;
+height:90px;
+margin:2px;
+float: left;
+background-image:url(../image/color.png);
+text-align:center;}
+#d
+{width:180px;
+height:90px;
+margin:2px;
+float: left;
+background-image:url(../image/color.png);
+text-align:center;}
+#e
+{width:180px;
+height: auto;
+margin:2px;
+float: left;}
+#f
+{width:180px;
+height: auto;
+margin:2px;
+float: left;}
+#g
+{width:180px;
+height: auto;
+margin:2px;
+float: left;}
+#h
+{width:180px;
+height: auto;
+margin:2px;
+float: left;}
+#i
+{width:180px;
+height: auto;
+margin:2px;
+float: left;}
+#j
+{width:180px;
+height: auto;
+margin:2px;
+float: left;}
+#k
+{width:180px;
+height: auto;
+margin:2px;
+float: left;}
+#l
+{width:180px;
+height: auto;
+margin:2px;
+float: left;}
+#m
+{width:180px;
+height: auto;
+margin:2px;
+float: left;}
+#n
+{width:180px;
+height: auto;
+margin:2px;
+float: left;}
+#o
+{width:180px;
+height: auto;
+margin:2px;
+float: left;}
+#p
+{width:180px;
+height: auto;
+margin:2px;
+float: left;}
+#q
+{width:180px;
+height: auto;
+margin:2px;
+float: left;}
+#r
+{width:180px;
+height: auto;
+margin:2px;
+float: left;}
+#s
+{width:180px;
+height: auto;
+margin:2px;
+float: left;}
+#t
+{width:180px;
+height: auto;
+margin:2px;
+float: left;}
+#u
+{width:180px;
+height: auto;
+margin:2px;
+float: left;}
+#lana
+{width:180px;
+height: auto;
+background-color:#A39D92;
+float: left;
+margin-top:2px;}
+#poliestireno
+{width:180px;
+height: auto;
+background-color: #999;
+margin-top:4px;
+float: left;}
+#imagen
+{width:364px;
+height: auto;
+margin:2px;
+float: left;}
+
+#imagena
+{width:360px;
+height: auto;
+margin:4px;
+float: left;}
